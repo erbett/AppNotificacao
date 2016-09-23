@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notificação</string>
+    
+    <string name="notificacao_titulo">Titulo da notificação: </string>
+    <string name="notificacao_mensagem">Mensagem da notificação: </string>
+    
+     <string name="notificacao_button">Enviar notificação</string>
+     
+     <string name="notificacao_toast">Informe o texto</string>
+    
+</resources>

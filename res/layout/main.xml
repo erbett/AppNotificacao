@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/text_view_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@null"
+        android:text="@string/notificacao_titulo" />
+
+    <EditText
+        android:id="@+id/edit_view_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_titulo"
+        android:contentDescription="@null"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/text_view_mensagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_view_titulo"
+        android:contentDescription="@null"
+        android:text="@string/notificacao_mensagem" />
+
+    <EditText
+        android:id="@+id/edit_view_mensagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_mensagem"
+        android:contentDescription="@null"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_view_mensagem"
+        android:contentDescription="@null"
+        android:text="@string/notificacao_button"
+        android:textColor="@android:color/black" />
+
+</RelativeLayout>
